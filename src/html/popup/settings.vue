@@ -797,13 +797,13 @@
 						font-size: 20px;
 
 						&:hover,
-						&.active {
-							color: white;
-						}
+                        &.active {
+                            color: lighten($greyple, 10);
+                        }
 
-						&:active {
-							color: darken(white, 10);
-						}
+                        &:active {
+                            color: darken($greyple, 10);
+                        }
 					}
 				}
 			}
@@ -970,7 +970,7 @@
 
 				font-weight: 600;
 				width: 90%;
-				background-color: #7289da;
+				background-color: $blurple;
 				justify-self: center;
 				padding: 5px 5px;
 				font-size: 17px;
