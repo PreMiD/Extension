@@ -38,7 +38,7 @@
 		"url-loader": "^4.1.1",
 		"vue-cli": "^2.9.6",
 		"vue-i18n": "^8.22.1",
-		"vue-loader": "^15.9.3",
+		"vue-loader": "^16.3.0",
 		"vue-router": "^3.4.7",
 		"vue-style-loader": "^4.1.2",
 		"vue-template-compiler": "^2.6.12",
