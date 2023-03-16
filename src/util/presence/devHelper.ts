@@ -512,7 +512,7 @@ class Presence {
 	 * @param {Number} elementDuration Element duration seconds
 	 */
 	getTimestamps(elementTime: number, elementDuration: number) {
-		const startTime = Date.now(),
+		const startTime = Date.now() - elementTime,
 			endTime = Math.floor(startTime / 1000) - elementTime + elementDuration;
 		return [Math.floor(startTime / 1000), endTime];
 	}
